@@ -1,7 +1,30 @@
 aid: mosaic-ml
 name: Mosaic Ml
-description: Mosaic Ml is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MosaicML - now Databricks Mosaic Research - is a machine learning systems
+  company that builds open-source tooling for training and deploying large
+  neural networks and generative AI models faster and at lower cost. Its
+  flagship open-source projects include Composer (a PyTorch library of training
+  speedup methods), LLM Foundry (code for training and finetuning large language
+  models), and Streaming (a library for streaming large datasets from cloud
+  object stores into PyTorch training). MosaicML also shipped a managed
+  training and inference platform driven by the mosaicml-cli (mcli) command-line
+  tool; following the 2023 Databricks acquisition that platform is now offered as
+  Databricks Mosaic AI. The company does not publish a standalone public
+  REST/OpenAPI surface - its developer surface is Python packages, a CLI, and its
+  open-source GitHub repositories.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/75143706?v=4
 url: https://raw.githubusercontent.com/api-evangelist/mosaic-ml/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,55 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Machine Learning
+- Artificial Intelligence
+- Generative AI
+- Large Language Models
+- Model Training
+- Deep Learning
+- MLOps
+- Open Source
+- PyTorch
 apis: []
+common:
+- type: DomainSecurity
+  url: security/mosaic-ml-domain-security.yml
+- type: Website
+  url: https://www.mosaicml.com
+- type: DeveloperPortal
+  url: https://docs.mosaicml.com/en/latest/
+- type: Documentation
+  url: https://docs.mosaicml.com/en/latest/
+- type: GettingStarted
+  url: https://docs.mosaicml.com/projects/composer/en/latest/getting_started/installation.html
+- type: GitHubOrganization
+  url: https://github.com/mosaicml
+- type: Blog
+  url: https://www.databricks.com/research/mosaic
+- type: SourceCode
+  url: https://github.com/mosaicml/composer
+- type: Packages
+  url: packages/mosaic-ml-packages.yml
+- type: SDKs
+  url: packages/mosaic-ml-packages.yml
+- type: CLI
+  url: cli/mosaic-ml-cli.yml
+- type: ChangeLog
+  url: changelog/mosaic-ml-changelog.yml
+- type: LLMsTxt
+  url: llms/mosaic-ml-llms.txt
+- type: WellKnown
+  url: well-known/mosaic-ml-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
