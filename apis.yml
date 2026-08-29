@@ -13,6 +13,18 @@ description: >-
   Databricks Mosaic AI. The company does not publish a standalone public
   REST/OpenAPI surface - its developer surface is Python packages, a CLI, and its
   open-source GitHub repositories.
+deliveryModel:
+  model: self-hosted
+  license: Apache-2.0
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
